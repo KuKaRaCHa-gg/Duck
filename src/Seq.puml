@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+-> SimulateurDeCanards : main()
+SimulateurDeCanards ->CanardOieAdaptateurDOE : Cancaner()
+CanardOieAdaptateurDOE -> Oie : Cancaner()
+
+@enduml

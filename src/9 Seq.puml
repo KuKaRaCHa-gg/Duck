@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+-> SimulateurDeCanards : main()
+SimulateurDeCanards -> CompositeurDeCouacs : Cancaner()
+CompositeurDeCouacs -> Colvert : Cancaner()
+
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+class Colvert {
++ void cancaner()
+}
+
+class CompteurDeCouacs {
+- Cancaneur cancaneur
+- {static} int nombreDeCouacs
++ void cancaner()
++ {static} int getCouacs()
+}
+
+
+interface Cancaneur {
++ void cancaner()
+}
+
+class SimulateurDeCanards {
++ {static} void main(String[])
++ void simuler()
++ void simuler(Cancaneur)
+}
+
+
+
+Cancaneur <|.. Colvert
+Cancaneur <|.. CompteurDeCouacs
+@enduml
